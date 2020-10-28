@@ -175,4 +175,15 @@ button:focus {
   overflow: hidden;
 }
 @media screen and (min-width: 760px) {
+  .area {
+    display: flex;
+  }
+  .info {
+    flex: 1 1 50%;
+  }
+  .new_video {
+    flex: 1 1 50%;
+  }
+  .new_video_list button {
+  }
 }
