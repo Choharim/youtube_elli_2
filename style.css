@@ -43,7 +43,7 @@ button:focus {
 .present_video video {
   width: 100%;
   height: 100%;
-  max-width: 700px;
+  max-width: 600px;
 }
 .info_text_tags {
   display: flex;
@@ -150,6 +150,7 @@ button:focus {
 }
 .new_video_list button {
   flex: 1 1 5%;
+  height: 100%;
 }
 .new_video_list_info {
   padding-left: 10px;
@@ -166,6 +167,12 @@ button:focus {
 .new_video_list_info li:nth-child(3) {
   color: gray;
   font-size: 15px;
+}
+.new_video_title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
 }
 @media screen and (min-width: 760px) {
 }
