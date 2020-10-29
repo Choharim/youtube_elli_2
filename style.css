@@ -183,7 +183,6 @@ button:focus {
   }
   .new_video {
     flex: 1 1 50%;
-  }
-  .new_video_list button {
+    height: 100%;
   }
 }
